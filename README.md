@@ -1,2 +1,2 @@
-# porygin-project
-Card do Porygon. Brinacando um pouco mais com CSS.
+# porygon-project
+Card do Porygon. Brincando um pouco mais com CSS.
