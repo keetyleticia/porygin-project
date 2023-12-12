@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation-name: colors;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0% {background: rgb(182, 22, 22);}
+    25% {background:rgb(27, 27, 194);}
+    50% {background:rgb(182, 22, 22);}
+    75% {background: rgb(27, 27, 194);}
+    100% {background: rgb(182, 22, 22);}
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    position: relative;
+    padding: 15px;
+    width: 460px;
+    color: white;
+    background-color: rgb(26, 23, 23);
+    margin: 50px;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container .card h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: bolder;
+    text-align: center;
+}
+
+.container .card h1 span{
+    color: yellow;
+    font-size: medium;
+}
+
+.container .card img{
+    width: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container .card .content p{
+    text-align: justify;
+    margin-top: 9px;
+}
+
+.container .card .content a{
+    color: rgb(26, 23, 23);
+    background: yellow;
+    border-radius: 10px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.5s;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 25px;
+}
+
+.container .card .content a:hover{
+    color: rgb(26, 23, 23);
+    background: white;
+}
